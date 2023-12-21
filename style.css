@@ -1,0 +1,13 @@
+/* <!-- Targeting in CSS --> */
+
+img {
+  width: 200px;
+}
+/* Class Targeting in CSS */
+.logo {
+  height: 200px;
+}
+/* ID Targeting in CSS */
+#firstimg {
+  border: red solid 5px;
+}
