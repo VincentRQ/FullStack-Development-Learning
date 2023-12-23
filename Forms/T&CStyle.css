@@ -1,0 +1,21 @@
+* {
+  color: rgb(246, 230, 230);
+  background: black;
+}
+h1 {
+  color: red;
+}
+
+h2 {
+  color: green;
+}
+#EndUserLicenseAgreement {
+  background: yellow;
+}
+.container-license {
+  background: yellow;
+}
+
+[href='/index.html'] {
+  color: aliceblue;
+}
