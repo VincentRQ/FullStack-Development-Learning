@@ -46,9 +46,12 @@ h1 {
   text-align: center;
   padding: 1rem;
   font-family: 'Times New Roman', Times, serif;
-  color: var(--primary-color);
+  color: var(--shadow);
 }
 
+h1:hover {
+  box-shadow: var(--shadow);
+}
 h2 {
   text-align: center;
   padding: 1rem;
@@ -71,7 +74,7 @@ label {
   font-size: 1.2rem;
   font-weight: bold;
   color: var(--light-color);
-  box-shadow: var(--shadow);
+  /* box-shadow: var(--shadow); */
 }
 
 input[type='submit'] {
@@ -81,6 +84,19 @@ input[type='submit'] {
   margin: 10px auto;
 }
 
+.btn:hover {
+  box-shadow: var(--shadow);
+  background-color: var(--success-color);
+}
+[value='Log In']:hover {
+  color: var(--light-color) !important;
+}
+
 .btn {
   display: flex;
+}
+
+#email:hover,
+#password:hover {
+  background-color: var(--dark-color);
 }

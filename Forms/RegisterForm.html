@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="RegisterStyle.css">
+    <title>Register Form</title>
+  </head>
+  <div>
+    <h1>Create a new Account</h1>
+    <div class="container"></div>
+    <form id="f1" action="/Forms/forms.html" method="get">
+    <h2>Register</h2>
+    <div>
+    <label for="FirstName">First Name:</label>
+    <input
+      type="text"
+      name="FirstName"
+      id="FirstName"
+      placeholder="John"
+      required
+    />
+    
+    <label for="LastName">Last Name:</label>
+    <input
+      type="text"
+      name="LastName"
+      id="LastName"
+      placeholder="Smith"
+      required
+    />
+    </div>
+    <!-- Date of Birth -->
+    <div>
+    <label for="DateOfBirth">Date of Birth:</label>
+    <input type="date" name="DateOfBirth" required />
+
+
+       </div>
+       <!-- Gender -->
+       <div class="radio">
+    <label for="gender-choice-male">Male</label>
+    <input
+      type="radio"
+      name="gender"
+      id="gender-choice-male"
+      value="Male"
+      required
+    />
+
+    <label for="gender-choice-female">Female</label>
+    <input
+      type="radio"
+      name="gender"
+      id="'gender-choice-female"
+      value="Female"
+      required
+    />
+</div>
+<!-- Account Type -->
+<div>
+    <label for="account-type">Account Type:</label>
+    <select name="account-type" id="selected-choice">
+      <option name="account-type" value="0" select disabled>
+        Account Type
+      </option>
+      <option name="account-type" value="Administrator">Administrator</option>
+      <option name="account-type" value="Contributor">Contributor</option>
+      <option name="Visitor" value="Visitor">Visitor</option>
+    </select>
+</div>
+<!-- Email & Password -->
+<div>
+    <label for="email">Email:</label>
+    <input
+      type="email"
+      name="name"
+      id="email"
+      placeholder="Your Email"
+      required
+    />
+    </div>
+    <div> 
+    <label for="password">Password:</label>
+    <input
+      type="password"
+      name="password"
+      id="password"
+      placeholder="Your Password"
+      required
+    />
+    </div>
+    <!-- Terms & Conditions -->
+    <div>
+        <p>
+            <a class="tc" href="/Forms/Terms&Conditions.html" target="_blank" 
+            >Terms & Conditions </a>
+        </p>
+        </div>
+        <!-- Agreement -->
+        <div>
+<label for="tc-agreement">I agree to the terms and conditions!</label>
+<input type="checkbox" name="tc-agreement" id="tc-agreement" required>
+</div>
+<div class="btn-submit">
+<input
+type="submit"
+value="submit">
+</div>
+        </form>
+    </div>
+  </body>
+</html>

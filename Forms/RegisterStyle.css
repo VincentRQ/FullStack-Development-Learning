@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Playfair+Display&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Aldrich', sans-serif !important;
+  font-family: 'Playfair Display', serif;
+  color: black;
+}
+/*Root*/
+:root {
+  --primary-color: #408c98;
+  --dark-color: #12202e;
+  --light-color: #f4f4f4;
+  --danger-colour: #d30d20;
+  --success-color: #2aaa50;
+  --shadow: 0 5px 14px rgba(0, 0, 0, 0.9);
+}
+
+#f1 {
+  border: 1px solid var(--light-color);
+  width: 300px;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  box-shadow: var(--shadow);
+  z-index: 2;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  padding: 0.5em;
+  font-family: 'Times New Roman', Times, serif;
+  color: var(--shadow);
+  background: var(--primary-color);
+  color: var(--dark-color);
+}
+
+h1:hover {
+  box-shadow: var(--shadow);
+}
+h2 {
+  text-align: center;
+  padding: 1em;
+  color: var(--dark-color);
+  font-size: 3em;
+}
+
+input[type='submit'] {
+  padding: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: var(--light-color);
+  color: var(--dark-color);
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+.btn:hover {
+  background-color: var(--success-color);
+  box-shadow: var(--shadow);
+}
+div {
+  padding: 0.5em;
+  font-weight: 800;
+}
+
+.radio {
+  padding: 5px;
+}
+
+.tc {
+  text-decoration: none;
+  text-align: center;
+}
+
+input:hover {
+  background-color: var(--dark-color);
+}
+
+.tc:hover {
+  color: var(--success-color);
+}
