@@ -18,7 +18,16 @@ font-family: 'Playfair Display', serif; */
   margin: 0;
   font-family: 'Aldrich', sans-serif !important;
   font-family: 'Playfair Display', serif;
-  color: black !important;
+  color: black;
+}
+/*Root*/
+:root {
+  --primary-color: #5bc9db;
+  --dark-color: #12202e;
+  --light-color: #f4f4f4;
+  --danger-colour: #d30d20;
+  --success-color: #2aaa50;
+  --shadow: 0 5px 14px rgba(0, 0, 0, 0.9);
 }
 
 #login {
@@ -30,22 +39,48 @@ font-family: 'Playfair Display', serif; */
   position: relative;
   border: #ffffff 2px solid;
   border-radius: 15px;
-  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.7);
+  box-shadow: var(--shadow);
 }
 
 h1 {
   text-align: center;
   padding: 1rem;
   font-family: 'Times New Roman', Times, serif;
+  color: var(--primary-color);
 }
 
 h2 {
   text-align: center;
   padding: 1rem;
   font-family: Arial, Helvetica, sans-serif;
+  color: var(--dark-color);
+}
+
+div {
+  padding: 5px;
 }
 
 .login,
 label {
-  color: red;
+  color: var(--light-color);
+}
+
+[value='Log In'] {
+  padding: 5px;
+  font-family: 'Aldrich', sans-serif !important;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--light-color);
+  box-shadow: var(--shadow);
+}
+
+input[type='submit'] {
+  padding: 10px auto;
+  background: var(--danger-colour);
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+.btn {
+  display: flex;
 }
