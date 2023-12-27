@@ -44,6 +44,12 @@ p {
     'Lucida Sans', Arial, sans-serif;
 }
 
+.container-license {
+  margin-top: 10px;
+  padding: 9px 30px;
+  border-left: 5px solid red;
+}
+
 .date {
   color: #1ee01e;
 }
