@@ -100,3 +100,8 @@ input[type='submit'] {
 #password:hover {
   background-color: var(--dark-color);
 }
+
+input:focus {
+  background: var(--dark-color);
+  color: var(--light-color) !important;
+}

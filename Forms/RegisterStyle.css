@@ -75,10 +75,15 @@ div {
   text-align: center;
 }
 
-input:hover {
+/* input:hover {
   background-color: var(--dark-color);
-}
+} */
 
 .tc:hover {
   color: var(--success-color);
+}
+
+input:focus {
+  background: var(--dark-color);
+  color: var(--light-color);
 }
