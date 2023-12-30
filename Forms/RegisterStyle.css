@@ -98,3 +98,29 @@ input:enabled {
 input:disabled {
   background-color: var(--danger-color);
 }
+
+input[type='checkbox']:checked + label {
+  box-shadow: var(--shadow);
+  color: var(--success-color);
+}
+
+input[type='radio'] {
+  box-shadow: var(--shadow);
+}
+
+option:checked {
+  color: var(--success-color);
+}
+
+/* First-Child */
+select option:first-child {
+  color: blue;
+}
+/* nth-Child */
+select option:nth-child(2) {
+  color: red;
+}
+/* Last-Child */
+select option:last-child {
+  color: green;
+}
