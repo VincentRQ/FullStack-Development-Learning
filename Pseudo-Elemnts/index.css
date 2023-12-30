@@ -1,0 +1,80 @@
+* {
+  margin: 0%;
+  padding: 0;
+}
+
+h1 {
+  height: 100%;
+  margin: 25%;
+  font-size: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Before and After, this doesn't work with images */
+
+h1::before {
+  content: 'Hello';
+  background: blue;
+
+  display: inline;
+  font-size: 16px;
+  background: black;
+  color: white;
+}
+
+h1::after {
+  content: 'Nothing';
+  background: black;
+  color: white;
+  font-size: 16px;
+  display: inline;
+}
+
+h2 {
+  height: 100%;
+  margin: 25%;
+  font-size: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2::before {
+  /* content: url(//unsplash.it/200/200); */
+  display: block;
+  margin: 0 0 8px 20px;
+  height: 3px;
+  text-shadow: none;
+  background-color: grey;
+  width: 100%;
+  content: '';
+}
+
+h2::after {
+  /* content: url(//unsplash.it/100/100); */
+  display: block;
+  margin: 0 0 8px 20px;
+  height: 3px;
+  text-shadow: none;
+  background-color: grey;
+  width: 100%;
+  content: '';
+}
+
+p {
+  height: 100%;
+  margin: 25%;
+  font-size: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p::before {
+  content: open-quote;
+  color: #999;
+  font-size: 3rem;
+  background: black;
+}
+
+p::after {
+  content: close-quote;
+}
