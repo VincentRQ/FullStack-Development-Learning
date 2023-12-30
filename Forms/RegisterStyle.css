@@ -11,8 +11,9 @@
   --primary-color: #408c98;
   --dark-color: #12202e;
   --light-color: #f4f4f4;
-  --danger-colour: #d30d20;
+  --danger-color: #d30d20;
   --success-color: #2aaa50;
+  --disabled-color: #c8c0c0;
   --shadow: 0 5px 14px rgba(0, 0, 0, 0.9);
 }
 
@@ -86,4 +87,14 @@ div {
 input:focus {
   background: var(--dark-color);
   color: var(--light-color);
+}
+
+/* Enabled/Disabled */
+
+input:enabled {
+  background-color: var(--success-color);
+}
+
+input:disabled {
+  background-color: var(--danger-color);
 }
