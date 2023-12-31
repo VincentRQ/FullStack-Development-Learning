@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Playfair+Display&display=swap');
+
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Playfair Display', serif;
+
+  margin: 0px;
+  padding: 0;
+}
+
+.main-menu {
+  background-color: #333;
+  padding: 1rem;
+  box-shadow: 0 0 10px 10px rgba(22, 22, 22, 0.9);
+}
+
+menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #efefef;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+menu ul {
+  list-style: none;
+  padding: 0.5rem;
+}
+
+menu li {
+  border: 1px solid red;
+  box-shadow: 0 0 10px 10px rgba(22, 22, 22, 0.9);
+  padding: 0.5rem;
+}
+
+menu .nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.right {
+  margin-left: auto;
+}
