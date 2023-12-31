@@ -1,0 +1,38 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img {
+  height: 190px;
+  width: 280px;
+}
+h1 {
+  text-align: center;
+  color: #ffffff;
+  background-color: #333;
+  font-size: 3rem;
+}
+h2 {
+  text-align: center;
+  color: #ffffff;
+  background-color: #333;
+  font-size: 2rem;
+}
+.flex-direction {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.justify-content img {
+  height: 50px;
+  width: 80px;
+}
+
+.justify-content {
+  display: flex;
+  justify-content: space-between;
+}
