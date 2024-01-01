@@ -75,3 +75,22 @@ header h2 {
   font-size: 3rem;
   padding: 3rem;
 }
+
+/* Portfolio */
+
+.portfolio-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.portfolio-content img {
+  height: 25vh;
+  padding: 0.5rem;
+}
+
+#portfolio h2 {
+  text-align: center;
+  padding: 3rem;
+  font-size: 2.5rem;
+}
