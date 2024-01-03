@@ -136,6 +136,40 @@ span {
   grid-auto-rows: auto repeat(3, 200px);
   grid-template-areas:
     'nav nav nav nav'
+    'sidebar header header header'
     'sidebar main main main'
-    'sidebar content content content';
+    'sidebar content content content'
+    'foot foot foot foot';
+}
+
+.grid-template-areas .item-1 {
+  grid-area: nav;
+}
+.grid-template-areas .item-2 {
+  grid-area: header;
+}
+.grid-template-areas .item-3 {
+  grid-area: sidebar;
+}
+.grid-template-areas .item-4 {
+  grid-area: main;
+}
+.grid-template-areas .item-5 {
+  grid-area: content;
+}
+.grid-template-areas .item-6 {
+  grid-area: foot;
+}
+
+.grid-template {
+  display: grid;
+  /* basically you are setting the row then the column
+  grid-template: 'h h h' 100px 'f f f' 200px / auto 50px auto; */
+
+  /* Here, you are saying you want 2 columns with a specific height, then auto the first width then a specific width column */
+  grid-template:
+    'h h' 100px
+    'm m' 150px
+    'f f' 200px
+    / auto 100px;
 }
