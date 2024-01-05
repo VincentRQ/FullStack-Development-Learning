@@ -181,3 +181,11 @@ span {
   column-gap: 50px;
   row-gap: 20px;
 }
+
+.justify-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50px 200px;
+  gap: 100px 50px;
+  justify-items: end;
+}
