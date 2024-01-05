@@ -173,3 +173,11 @@ span {
     'f f' 200px
     / auto 100px;
 }
+
+.grid-gap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 80px 200px;
+  column-gap: 50px;
+  row-gap: 20px;
+}
