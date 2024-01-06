@@ -177,4 +177,8 @@ h2 {
   box-shadow: var(--shadow);
   padding: 1rem;
   background-color: black;
+  transition: ease-in-out 500ms;
+  color: var(--etc);
+  border-radius: 15px;
+  cursor: pointer;
 }
