@@ -189,3 +189,28 @@ span {
   gap: 100px 50px;
   justify-items: end;
 }
+
+/* Aligns items within the container, may stretch or center or start */
+.align-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px 200px;
+  gap: 100px 50px;
+  align-items: start;
+}
+
+/* Justifies the container for the entire page, whereas the items were just within the container. */
+
+.justify-content {
+  display: grid;
+  grid-template-columns: 200px 100px 150px;
+  grid-template-rows: 100px 200px;
+  gap: 100px 50px;
+  justify-content: space-evenly;
+}
+
+.grid-auto-columns-rows {
+  display: grid;
+  gap: 10px;
+  grid-template-areas: 'a a a';
+}

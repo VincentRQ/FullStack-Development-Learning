@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* light text color = ltc */
+  --ltc: #efefee;
+  /* dark text color = dtc */
+  --dtc: #333333;
+  /* effect text color = etc */
+  --etc: #e7db70;
+  /* dark background color = dbg */
+  --lbg: #efefee;
+  /* light background color = lbg */
+  --dbg: #333;
+  /* icon color = ic */
+  --ic: #004bf0;
+  /* shadow */
+  --shadow: 0 0 15px 1px rgba(0, 0, 0, , 0.8);
+}
+
+body {
+  background: var(--dbg);
+  color: var(--ltc);
+  scroll-behavior: smooth;
+}
+
+/* ------------------------------------- */
+
+/* <!-- Menu --> */
+menu {
+  position: fixed;
+  background-color: black;
+  z-index: 3;
+  top: 0;
+  width: 100%;
+}
+
+menu ul {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  justify-content: flex-start;
+}
+
+menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--ltc);
+  padding: 0.3rem;
+}
+
+menu ul li {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding: 0.5rem;
+  list-style: none;
+}
+
+menu i {
+  padding-right: 0.3rem;
+}
+
+menu ul li :hover,
+menu i :hover,
+menu a :hover {
+  color: var(--etc);
+  font-size: 1.3rem;
+}
+
+/* ------------------------------------- */
+
+/* Header */
+
+.header::after {
+  content: '';
+  height: 100vh;
+  width: 100%;
+  background-image: url('https://source.unsplash.com/WLUHO9A_xik/1600x900');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  transition: all 1000ms;
+}
+.header:hover::after {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+
+.header:hover .content {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.header .content:hover {
+  cursor: pointer;
+  filter: blur(0px);
+}
+
+.content {
+  position: absolute;
+  z-index: 1;
+  top: 20%;
+  left: 50%;
+  margin: -150px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  transition: all 1000ms;
+}
+.content .logo {
+  height: 300px;
+  padding-top: 5rem;
+}
+
+.content .title {
+  font-size: 2.2rem;
+  margin-top: 1rem;
+}
+
+.content .quote {
+  line-height: 1.7;
+  margin-top: 1rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+
+  overflow: hidden;
+
+  padding: 4rem 1rem;
+}
+.b:hover {
+  color: #e7bd70;
+  font-size: 3rem;
+  transition: 1000ms ease-in-out;
+}
+.quote::before {
+  content: open-quote;
+  font-size: 2rem;
+}
+.quote::after {
+  content: close-quote;
+  font-size: 2rem;
+}
+
+/* ------------------------------- */
+/* Services */
+
+h2 {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 4rem;
+  font-size: 2.5rem;
+  letter-spacing: 5px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  text-align: center;
+  margin: auto;
+}
+
+.service:hover {
+  box-shadow: var(--shadow);
+  padding: 1rem;
+  background-color: black;
+}
