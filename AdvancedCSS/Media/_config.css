@@ -1,0 +1,12 @@
+:root {
+  --color-prime: #6e0808;
+  --color-sec: rgb(175, 210, 216);
+  --shadow: 0 0 10px rgb(0 0 0);
+  /* main font size = mf 
+  sec font size = sf*/
+  --mf: 3rem;
+  --sf: 2rem;
+  /* background color = bgl */
+  --bgd: rgba(36, 29, 28, 0.8);
+  --bgl: rgba(119, 102, 100, 0.8);
+}
