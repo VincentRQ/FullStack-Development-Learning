@@ -146,10 +146,24 @@ const CheckList = [
 
 // Filter Loop With Map Loop
 
-const loopCompleted = CheckList.filter(function (loop) {
-  return loop.Completed === false
-}).map(function (loop) {
-  return loop.task
-})
+// const loopCompleted = CheckList.filter(function (loop) {
+//   return loop.Completed === false
+// }).map(function (loop) {
+//   return loop.task
+// })
 
-console.log(loopCompleted)
+// console.log(loopCompleted)
+
+// Array (remember, they start with 0) (You can have different data types in array)
+
+const cars = ['Audi', 'BMW', 20, true]
+// cars[4] = 'Ford'
+cars.push('Toyota')
+cars.unshift('Toyota')
+//Removes from array
+cars.shift()
+cars.pop()
+
+// console.log(cars)
+// console.log(Array.isArray(cars))
+console.log(cars.indexOf('BMW'))
