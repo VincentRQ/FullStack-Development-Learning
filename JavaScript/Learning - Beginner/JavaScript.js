@@ -227,26 +227,68 @@
 //OOP helps us construct objects using constructor functions
 //Two ways of doing this: prototypes & ES6 classes
 //Constructor functions begin with a capital letter
+
 //Constructor Function
 
-function User(firstName, lastName, Email, DoB) {
-  this.firstName = firstName
-  this.lastName = lastName
-  this.Email = Email
-  this.DoB = new Date(DoB)
-  // add a New Method/Function
-  this.getBirthYear = function () {
-    return this.DoB.getFullYear()
-  }
-  this.getFullName = function () {
-    return '${this.firstName}'
-  }
-}
+// function User(firstName, lastName, Email, DoB) {
+//   this.firstName = firstName
+//   this.lastName = lastName
+//   this.Email = Email
+//   this.DoB = new Date(DoB)
+//   // add a New Method/Function
+//   this.getBirthYear = function () {
+//     return this.DoB.getFullYear()
+//   }
+//   this.getFullName = function () {
+//     return '${this.firstName}'
+//   }
+// }
 
-//We create a variable, then said that the user should be assigned to a variable, with a specific string of arguments
-const user1 = new User('Norbert', 'Menyhart', 'noEmail@mail.com', '02/19/2004')
-const user2 = new User('Quintin', 'Menyhart', 'no2Email@mail.com', '09/09/2004')
-console.log(user1.DoB.getFullYear)
-console.log(user2.getBirthYear())
+// //We create a variable, then said that the user should be assigned to a variable, with a specific string of arguments
+// const user1 = new User('Norbert', 'Menyhart', 'noEmail@mail.com', '02/19/2004')
+// const user2 = new User('Quintin', 'Menyhart', 'no2Email@mail.com', '09/09/2004')
+// console.log(user1.DoB.getFullYear)
+// console.log(user2.getBirthYear())
 
 //Prototypes
+
+// function User(firstName, lastName, Email, DoB) {
+//   this.firstName = firstName
+//   this.lastName = lastName
+//   this.Email = Email
+//   this.DoB = new Date(DoB)
+//   // add a New Method/Function
+// }
+// user.prototype.getBirthYear = function () {
+//   return this.DoB.getFullYear()
+// }
+// user.prototype.getFullName = function () {
+//   return '${this.firstName} ${this.lastName}'
+// }
+// const user1 = new User('Norbert', 'Menyhart', 'noEmail@mail.com', '02/19/2004')
+// const user2 = new User('Quintin', 'Menyhart', 'no2Email@mail.com', '09/09/2004')
+
+// console.log(user1getFullName())
+
+//ES6 Classes - Optimal as opposed to the prior two
+
+// class User {
+//   constructor(firstName, lastName, Email, DoB) {
+//     this.firstName = firstName
+//     this.lastName=lastName
+//     this.Email=Email
+//     this.DoB = DoB
+//   }
+//   getBirthYear(){
+//     return this.DoB.getFullYear()
+//   }
+//   getFullname(){
+//     return ${this.firstName} ${this.lastName}
+//   }
+// }
+
+// const user1 = new User('Norbert', 'Menyhart', 'noEmail@mail.com', '02/19/2004')
+// const user2 = new User('Quintin', 'Menyhart', 'no2Email@mail.com', '09/09/2004')
+
+// console.log(user1.getBirthYear())
+// console.log(user1getFullName())
