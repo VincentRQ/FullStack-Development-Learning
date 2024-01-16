@@ -91,17 +91,17 @@ for (let i = 0; i < odd.length; i++) {
 //Traversing the DOM - Parent, Child, and Siblings
 
 //ParentDOM
-let userList = document.querySelector('#users')
+// let userList = document.querySelector('#users')
 
-//Parent Node
-// console.log(userList.parentNode);
-// userList.parentNode.style.backgroundColor='yellow'
-// console.log(userList.parentNode.parentNode)
-// console.log(userList.parentNode.parentNode.parentNode)
+// //Parent Node
+// // console.log(userList.parentNode);
+// // userList.parentNode.style.backgroundColor='yellow'
+// // console.log(userList.parentNode.parentNode)
+// // console.log(userList.parentNode.parentNode.parentNode)
 
-//Parent Element
+// //Parent Element
 
-userList.parentElement.style.backgroundColor = 'yellow'
+// userList.parentElement.style.backgroundColor = 'yellow'
 // console.log(userList.parentElement)
 // console.log(userList.parentElement.parentElement)
 
@@ -123,7 +123,31 @@ userList.parentElement.style.backgroundColor = 'yellow'
 
 //Siblings
 
-console.log(userList.nextSibling)
-console.log(userList.nextElementSibling)
-console.log(userList.previousElementSibling)
-console.log(userList.parentElement)
+// console.log(userList.nextSibling)
+// console.log(userList.nextElementSibling)
+// console.log(userList.previousElementSibling)
+// console.log(userList.parentElement)
+
+//Dom Elements Creation and Insertion
+
+//Create Elements
+
+//Create a <div>
+
+const newDiv = document.creaseElement('div')
+
+newDiv.id = 'div-Id'
+newDiv.className = 'new-div-class'
+
+newDiv.serAttribute('attr-title', 'div-attribute')
+
+let newDivText = document.createTextNode('Herro Friend')
+
+newDiv.appendChild(newDivText)
+
+const container = document.querySelector('header container')
+
+const h1 = document.querySelector('header h1')
+console.log(newDiv)
+
+container.insertBefore()
