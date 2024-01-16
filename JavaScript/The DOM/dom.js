@@ -134,20 +134,20 @@ for (let i = 0; i < odd.length; i++) {
 
 //Create a <div>
 
-const newDiv = document.creaseElement('div')
+// const newDiv = document.creaseElement('div')
 
-newDiv.id = 'div-Id'
-newDiv.className = 'new-div-class'
+// newDiv.id = 'div-Id'
+// newDiv.className = 'new-div-class'
 
-newDiv.serAttribute('attr-title', 'div-attribute')
+// newDiv.serAttribute('attr-title', 'div-attribute')
 
-let newDivText = document.createTextNode('Herro Friend')
+// let newDivText = document.createTextNode('Herro Friend')
 
-newDiv.appendChild(newDivText)
+// newDiv.appendChild(newDivText)
 
-const container = document.querySelector('header container')
+// const container = document.querySelector('header container')
 
-const h1 = document.querySelector('header h1')
-console.log(newDiv)
+// const h1 = document.querySelector('header h1')
+// console.log(newDiv)
 
-container.insertBefore()
+// container.insertBefore(newDiv, h1)
