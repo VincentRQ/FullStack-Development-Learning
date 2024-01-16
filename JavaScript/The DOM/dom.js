@@ -87,3 +87,43 @@ for (let i = 0; i < odd.length; i++) {
   odd[i].style.backgroundColor = 'blue'
   even[i].style.backgroundColor = 'orange'
 }
+
+//Traversing the DOM - Parent, Child, and Siblings
+
+//ParentDOM
+let userList = document.querySelector('#users')
+
+//Parent Node
+// console.log(userList.parentNode);
+// userList.parentNode.style.backgroundColor='yellow'
+// console.log(userList.parentNode.parentNode)
+// console.log(userList.parentNode.parentNode.parentNode)
+
+//Parent Element
+
+userList.parentElement.style.backgroundColor = 'yellow'
+// console.log(userList.parentElement)
+// console.log(userList.parentElement.parentElement)
+
+// //------------------
+
+// //Child Node
+
+// console.log(userList.firstChild);
+
+// console.log(userList.firstElementChild);
+
+// userList.firstElementChild.textContent = 'I am the first Child, Dagoth Ur'
+
+// // Last Child
+
+// console.log(userList.lastChild);
+
+// console.log(userList.lastElementChild.style.color = 'blue')
+
+//Siblings
+
+console.log(userList.nextSibling)
+console.log(userList.nextElementSibling)
+console.log(userList.previousElementSibling)
+console.log(userList.parentElement)
