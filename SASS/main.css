@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Playfair+Display&display=swap");
+p {
+  color: red;
+}
+
+/* This is another comment*/
+#SassSyntax {
+  color: red;
+}
+#SassSyntax:hover {
+  color: lightseagreen;
+}
+#SassSyntax:hover h2 {
+  color: peru;
+  cursor: pointer;
+}
+
+#SassVariable h2 {
+  color: turquoise;
+}
+
+#SassVariable ul {
+  color: turquoise;
+}
+
+#SassDataType {
+  font-size: 2rem;
+}
+
+#SassDataType h2 {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+#SassDataType h2 {
+  color: red;
+}
+#SassDataType ul {
+  color: rgb(13, 6, 172);
+}
+#SassDataType ul li:last-child {
+  color: rgb(220, 180, 250);
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0 0 15px 30px;
+}
+
+* {
+  font-family: "Noto Sans JP", sans-serif;
+  scroll-behavior: smooth;
+  margin: 10px;
+  padding: 0;
+}
+
+:root {
+  --prime-color: red;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.h1-Class {
+  font-size: 4rem;
+  padding-top: 4rem;
+  color: red;
+}

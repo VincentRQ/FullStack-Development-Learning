@@ -1,0 +1,32 @@
+@import 'Syntax';
+@import 'Variable';
+@import 'DataType';
+@import 'Operators';
+@import 'Functions';
+@import 'ControlDirectives';
+@import 'Mixins';
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Playfair+Display&display=swap');
+
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+  scroll-behavior: smooth;
+
+  margin: 10px;
+  padding: 0;
+}
+
+:root {
+  --prime-color: red;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.h1-Class {
+  font-size: 4rem;
+  padding-top: 4rem;
+  //   color: $prime-color;
+  color: $prim-color;
+}
