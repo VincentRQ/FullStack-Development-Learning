@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0.5rem;
+  font-family: 'Noto Sans JP', sans-serif;
+  scroll-behavior: smooth;
+}
+:root {
+  --primary-color: #073455;
+  --secondary-color: #1dc200;
+}
+
+html {
+  font-size: 1em;
+  line-height: 1.5;
+  color: var(--primary-color);
+  /* color: lightblue; */
+  background-color: white;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 2rem 0;
+  text-align: center;
+}
+
+input {
+  width: 80px;
+  font-size: 1rem;
+  padding: 0.4rem;
+  margin: 0.5rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  text-align: center;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  color: #fff;
+  background-color: var(--primary-color);
+  margin: none;
+  width: 100px;
+  font-weight: 600px;
+  border: none;
+  outline: none;
+}
+
+button[type='submit'] {
+  background-color: var(--secondary-color);
+}
+
+form {
+  margin-top: 2rem;
+}
+
+/* Table */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+th {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.5rem;
+}
+
+td.discount {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+button.plus,
+button.minus {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0.15px 0.1em 0.2rem var(--primary-color);
+  transition: all 0.2s ease-in-out;
+}
+
+button.plus:active,
+button.minus:active {
+  transform: scale(0.98);
+  box-shadow: none;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
