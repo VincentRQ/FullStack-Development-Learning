@@ -104,3 +104,27 @@ input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+#output {
+  grid-column: 1/3;
+  text-align: center;
+}
+
+div.result {
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  box-shadow: 0.15px 0.1rem 0.2rem var(--primary-color);
+  max-width: fit-content;
+}
+
+span.percent {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+}
