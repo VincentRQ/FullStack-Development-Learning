@@ -1,29 +1,29 @@
-p {
-  color: red;
-}
-
-//This is a comment
-/* This is another comment*/
-//Nesting
-
-// #SassSyntax {
+// p {
 //   color: red;
-//   h2 {
-//     color: blue;
-//   }
-//   ul li:first-child {
-//     color: green;
-//   }
 // }
 
-//Parent Selector
-#SassSyntax {
-  color: red;
-  &:hover {
-    h2 {
-      color: peru;
-      cursor: pointer;
-    }
-    color: lightseagreen;
-  }
-}
+// //This is a comment
+// /* This is another comment*/
+// //Nesting
+
+// // #SassSyntax {
+// //   color: red;
+// //   h2 {
+// //     color: blue;
+// //   }
+// //   ul li:first-child {
+// //     color: green;
+// //   }
+// // }
+
+// //Parent Selector
+// #SassSyntax {
+//   color: red;
+//   &:hover {
+//     h2 {
+//       color: peru;
+//       cursor: pointer;
+//     }
+//     color: lightseagreen;
+//   }
+// }

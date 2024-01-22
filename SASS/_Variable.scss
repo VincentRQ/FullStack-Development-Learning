@@ -1,26 +1,26 @@
-$prime-color: blue;
-//SASS Variable
+// $prime-color: blue;
+// //SASS Variable
 
-// $<variable name>:<value>
+// // $<variable name>:<value>
 
-$prim-color: red;
-$large-font-size: 4rem;
-$medium-font-size: 3rem;
-$small-font-size: 2rem;
-$sec-color: yellow;
+// $prim-color: red;
+// $large-font-size: 4rem;
+// $medium-font-size: 3rem;
+// $small-font-size: 2rem;
+// $sec-color: yellow;
 
-// .Sass-Variable {
-//   color: $prim-color;
-//   font-size: $medium-font-size;
+// // .Sass-Variable {
+// //   color: $prim-color;
+// //   font-size: $medium-font-size;
+// // }
+
+// #SassVariable {
+//   h2 {
+//     $sec-color: turquoise !global;
+//     color: $sec-color;
+//   }
 // }
 
-#SassVariable {
-  h2 {
-    $sec-color: turquoise !global;
-    color: $sec-color;
-  }
-}
-
-#SassVariable ul {
-  color: $sec-color;
-}
+// #SassVariable ul {
+//   color: $sec-color;
+// }

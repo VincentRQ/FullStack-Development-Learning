@@ -1,0 +1,6 @@
+//Footer Responsiveness
+@media (max-width: 700px) {
+  footer {
+    @include footer-rotate;
+  }
+}
