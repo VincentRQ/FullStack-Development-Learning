@@ -1,0 +1,51 @@
+//Control Directives
+
+//Conditional Execution
+// @if, @else if, @else
+//and
+//Equality Operations
+$b: bolder;
+$i: italic;
+#SassOperators {
+  @if font-size == $large-font-size {
+    font-style: $b;
+    color: blue;
+  }
+  @elseif font-size = $small-font-size {
+    font-size = $small-font {
+      & li {
+        color: green;
+      }
+    }
+  } @else {
+    font-style: $i;
+    color: red;
+  }
+}
+
+//-----------------------
+
+//Conditional Looping - @while
+//and
+//Comparison / Relation
+
+$p: 1;
+
+@while $p < 5 {
+  .Con-Loop-#{$p} {
+    color: red;
+    $p: $p + 1;
+  }
+}
+
+//-------------------------
+
+//Unconditional Looping -@for
+//and
+//Numeric Operator
+
+//------------------
+
+//@each Looping
+//And
+//String Operations + Color Operations

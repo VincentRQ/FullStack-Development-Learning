@@ -43,6 +43,11 @@ p {
   padding: 0 0 15px 30px;
 }
 
+#SassOperators {
+  font-style: bolder;
+  color: blue;
+}
+
 * {
   font-family: "Noto Sans JP", sans-serif;
   scroll-behavior: smooth;
