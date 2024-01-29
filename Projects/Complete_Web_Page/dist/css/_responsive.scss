@@ -4,3 +4,27 @@
     @include footer-rotate;
   }
 }
+
+@include media-lg {
+  .menu-btn {
+    visibility: hidden;
+  }
+  .nav {
+    visibility: visible;
+    .menu-nav {
+      display: block;
+      transform: translateY(0);
+      height: 100%;
+      background: transparent;
+      text-align: left;
+
+      &-item {
+        display: initial;
+        padding: 1.5rem;
+      }
+      &-link {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

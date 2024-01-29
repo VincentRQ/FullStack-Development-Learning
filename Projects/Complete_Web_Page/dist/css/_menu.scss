@@ -61,7 +61,7 @@
   left: 0;
   width: 100vw;
   opacity: 0.8;
-    visibility: hidden;
+  visibility: hidden;
   &.open {
     visibility: visible;
   }
@@ -102,10 +102,14 @@
       font-weight: 900;
       @include transition-ease;
 
-      &:hover{
+      &:hover {
         color: $sec-c;
-
       }
     }
+  }
+}
+@for $i from 1 through 5 {
+  .menu-nav-item:nth-child(#{$i}) {
+    transition-delay: ($i * 0.1s) + 0.2s;
   }
 }

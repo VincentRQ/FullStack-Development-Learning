@@ -13,7 +13,7 @@
 $bg-c: #272727;
 $bg-lc: #fce5f9;
 $prime-c: #341c09;
-$sec-c: #fc7307;
+$sec-c: #240808;
 $social-c: #2196f3;
 $nav-c: #234155;
 $logo-prime-c: #234155;
@@ -107,6 +107,23 @@ $danger-c: #f44336;
 
 // Mixins (Display)
 //Display
+@mixin media-xl {
+  @media screen and (min-width: 1600px) {
+    @content;
+  }
+}
+
+@mixin media-lg {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin media-md{
+  @media screen and (min-width: 400px) {
+    @content;
+  }
+}
 
 //Footer
 
