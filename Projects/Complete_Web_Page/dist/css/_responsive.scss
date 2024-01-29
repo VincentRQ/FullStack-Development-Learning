@@ -4,8 +4,22 @@
     @include footer-rotate;
   }
 }
+@include media-md {
+  //Portfolio
+  .portfolio {
+    &-bio-img {
+      height: 40vh;
+    }
+    &-items {
+      @include grid;
+      grid-template-columns: 1fr;
+    }
+  }
+}
 
 @include media-lg {
+  // Menu
+
   .menu-btn {
     visibility: hidden;
   }
@@ -26,5 +40,23 @@
         font-size: 1.5rem;
       }
     }
+  }
+}
+
+@include media-xl {
+  .about{
+  }
+  &-bio-img {
+    padding-top: 10rem;
+  }
+  //Portfolio
+  .portfolio {
+    &-items {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .portfolio-bio-img {
+    height: 50vh;
   }
 }

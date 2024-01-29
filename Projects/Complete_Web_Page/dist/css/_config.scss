@@ -64,6 +64,17 @@ $danger-c: #f44336;
   text-align: center;
   flex-direction: $flex-dir;
 }
+//Grid Mixin
+
+@mixin grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
 
 //Buttons
 
@@ -119,7 +130,7 @@ $danger-c: #f44336;
   }
 }
 
-@mixin media-md{
+@mixin media-md {
   @media screen and (min-width: 400px) {
     @content;
   }
