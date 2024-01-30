@@ -116,6 +116,55 @@ $danger-c: #f44336;
   text-transform: lowercase;
 }
 
+.btn-sm {
+  margin-left: 1rem;
+}
+
+@mixin success_hover {
+  color: #000;
+  background-color: $success-c;
+  cursor: pointer;
+  @include transition-ease;
+  box-shadow: 0 5px 10px rgba($success-c, 0.8);
+}
+/*Display types*/
+/*Display Flex */
+
+@mixin dis-flex {
+  height: 100%;
+  padding-top: 20vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+}
+@mixin flex($flex-dir) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: $flex-dir;
+}
+
+
+/*Display Flex */
+@mixin grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+@mixin tab-content($repeat) {
+  display: grid;
+  grid-template-columns: repeat($repeat, 1fr);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
 // Mixins (Display)
 //Display
 @mixin media-xl {
