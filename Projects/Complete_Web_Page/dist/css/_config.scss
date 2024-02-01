@@ -76,6 +76,15 @@ $danger-c: #f44336;
   margin: auto;
 }
 
+@mixin tab-grid($repeat){
+  display: grid;
+  grid-template-columns: repeat($repeat, 1fr);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
 //Buttons
 
 .btn {

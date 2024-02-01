@@ -8,6 +8,14 @@
 @import '_requestForm';
 @import '_imageGallery';
 @import '_responsive';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Playfair+Display&display=swap');
+
+* {
+  margin: 0;
+  padding: 0.5rem;
+  font-family: 'Noto Sans JP', sans-serif;
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: $bg-c;
