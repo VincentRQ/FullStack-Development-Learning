@@ -36,17 +36,35 @@
     input::placeholder {
       color: $bg-lc;
     }
-    #City{
-        padding-top: 1rem;
-        // @include tab-grid(2);
-        gap: 1rem;
-        a{
-            text-decoration: none;
+    #City {
+      padding-top: 1rem;
+      @include tab-grid(2);
+      gap: 1rem;
+      a {
+        text-decoration: none;
+      }
+      li {
+        list-style: none;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .from{
+    max-width: 600px;
+    padding-top: 1rem;
+    h3{
+        font-size: 2rem;
+        padding: 2rem 0;
+        span{
+            color: $sec-c;
         }
-        li{
-            list-style: none;
-            font-size: 1rem;
-        }
+    }
+
+    .contact-form{
+        max-width: 350px;
+        @include tab-grid(1);
+        gap: 0.5rem;
     }
   }
 }

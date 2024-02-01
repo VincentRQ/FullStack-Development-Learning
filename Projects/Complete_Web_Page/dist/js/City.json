@@ -1,0 +1,54 @@
+{
+  "Address": [
+    {
+      "City": "Munchen",
+      "Street": "Str. Name 36",
+      "ZipCodes": "24613"
+    },
+    {
+      "City": "NY",
+      "Street": "Str. Name 50",
+      "ZipCodes": "231456"
+    },
+    {
+      "City": "Bratislava",
+      "Street": "Str. Name 36",
+      "ZipCodes": "54345"
+    },
+    {
+      "City": "Monaco",
+      "Street": "Str. Name 36",
+      "ZipCodes": "34213"
+    },
+    {
+      "City": "Koln",
+      "Street": "Str. Name 36",
+      "ZipCodes": "743454"
+    },
+    {
+      "City": "Berlin",
+      "Street": "Str. Name 36",
+      "ZipCodes": "1237"
+    },
+    {
+      "City": "London",
+      "Street": "Str. Name 40",
+      "ZipCodes": "24613"
+    },
+    {
+      "City": "Praga",
+      "Street": "Str. Name 36",
+      "ZipCodes": "24613"
+    },
+    {
+      "City": "Venetia",
+      "Street": "Str. Name 36",
+      "ZipCodes": "4564"
+    },
+    {
+      "City": "Roma",
+      "Street": "Str. Name 36",
+      "ZipCodes": "24613"
+    }
+  ]
+}

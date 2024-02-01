@@ -1,0 +1,62 @@
+[
+  {
+    "abbr": "AM",
+    "zipcode": "92224",
+    "name": "Amberg",
+    "region": "Oberpfalz"
+  },
+  {
+    "abbr": "TÖL",
+    "zipcode": "83646",
+    "name": "Bad Tölz-Wolfratshausen",
+    "region": "Oberbayern"
+  },
+  {
+    "abbr": "CHA",
+    "zipcode": "93413",
+    "name": "Cham",
+    "region": "Oberpfalz"
+  },
+  {
+    "abbr": "DEG",
+    "zipcode": "94469",
+    "name": "Deggendorf",
+    "region": "Niederbayern"
+  },
+  {
+    "abbr": "",
+    "zipcode": "",
+    "name": "",
+    "region": "Oberbayern"
+  },
+  {
+    "abbr": "ED",
+    "zipcode": "85435",
+    "name": "Erding",
+    "region": "Oberbayern"
+  },
+  {
+    "abbr": "FO",
+    "zipcode": "91301",
+    "name": "Forchheim",
+    "region": "Oberfranken"
+  },
+  {
+    "abbr": "GZ",
+    "zipcode": "89312",
+    "name": "Günzburg",
+    "region": "Schwaben"
+  },
+  {
+    "abbr": "HAS",
+    "zipcode": "97437",
+    "name": "Haßberg",
+    "region": "Unterfranken"
+  },
+  {
+    "abbr": "",
+    "zipcode": "",
+    "name": "",
+    "region": "Bayern"
+  }
+]
