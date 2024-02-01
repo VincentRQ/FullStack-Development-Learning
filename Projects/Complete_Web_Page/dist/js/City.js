@@ -40,5 +40,5 @@ xhttp.onreadystatechange = function () {
   }
 }
 
-xhttp.open('GET', '/Projects/Complete_Web_Page/dist/js/City.json', true);
-xhttp.send();
+xhttp.open('GET', '../dist/js/City.js', true)
+xhttp.send()

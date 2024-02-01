@@ -1,0 +1,22 @@
+#requestForm {
+  max-height: 100vh;
+  padding-top: 15vh;
+  align-items: center;
+  h2 {
+    padding-bottom: 5rem;
+  }
+}
+.requestForm {
+  background-color: $bg-c;
+
+  max-width: 40vw;
+  margin: auto;
+  .requestBtn {
+    :first-child {
+      left: 0;
+    }
+    :last-child {
+      right: 300px;
+    }
+  }
+}

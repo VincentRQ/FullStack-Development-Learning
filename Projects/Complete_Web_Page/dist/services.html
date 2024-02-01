@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/75e53ee709.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>SASS Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu-btn">
+        <span class="menu-btn_burg"></span>
+      </div>
+      <nav class="nav">
+        <ul class="menu-nav">
+          <li class="menu-nav-item">
+            <a href="index.html" class="menu-nav-link"
+              ><i class="fas fa-home"></i>Home</a
+            >
+          </li>
+          <li class="menu-nav-item">
+            <a href="about.html" class="menu-nav-link"
+              ><i class="fas fa-braille"></i>About </a
+            >
+          </li>
+          <li class="menu-nav-item ">
+            <a href="portfolio.html" class="menu-nav-link"
+              ><i class="fas fa-camera"></i>Portfolio</a
+            >
+          </li>
+          <li class="menu-nav-item">
+            <a href="contact.html" class="menu-nav-link"
+              ><i class="fas fa-globe"></i>Contact </a
+            >
+          </li>
+          <li class="menu-nav-item active">
+            <a href="services.html" class="menu-nav-link"
+              ><i class="fas fa-tools"></i>Services</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="services">
+        <div class="front-services text-xl">
+          <h2 class="home-services">This is what we can do for you</h2>
+        </div>
+
+        <section class="services-tabs">
+          <div class="container">
+            <div id="tab-Photo" class="tab-item tab-border">
+              <i class="fas fa-camera fa-3x"></i>
+              <p class="hide-sm">Photography</p>
+            </div>
+            <div id="tab-Film" class="tab-item">
+              <i class="fas fa-video fa-3x"></i>
+              <p class="hide-sm">Video</p>
+            </div>
+            <div id="tab-PV" class="tab-item">
+              <i class="fas fa-photo-video fa-3x"></i>
+              <p class="hide-sm">Photo & Video</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="tab-content">
+          <div class="container">
+            <!-- Tab Content Photo -->
+            <div id="tab-Photo-content" class="tab-content-item show">
+              <div>
+                <p class="text-xl">
+                  You can book your Photo Shoot whit us, anty time any whare!
+                </p>
+               
+              </div>
+              <div class="tab-Photo-content-inner">
+               
+
+                <div class="pack  ">
+                  <div class="booking">
+                    <h2 class="text-lg">Corporate Package</h2>
+                    <br />
+                    <a id="Corporate" href="requestform.html" class="btn btn-lg"
+                      >Book now</a
+                    >
+                  </div>
+                  <table class="table t-1">
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th>Basic</th>
+                        <th>Standard</th>
+                        <th>Premium</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Package</td>
+                        <td>$49.99</td>
+                        <td>$99.99</td>
+                        <td>$199.99</td>
+                      </tr>
+                      <tr>
+                        <td>Planing</td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr>
+                        <td>Location</td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr>
+                        <td>Costume</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>4</td>
+                      </tr>
+                      <tr>
+                        <td>Studio</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr></tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="pack">
+                  <div class="booking">
+                    <h2 class="text-lg">Wedding Package</h2>
+                    <br />
+                    <a id="Wedding" href="requestform.html" class="btn btn-lg"
+                      >Book now</a
+                    >
+                  </div>
+                  <table class="table t-2">
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th>Basic</th>
+                        <th>Standard</th>
+                        <th>Premium</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Package</td>
+                        <td>$49.99</td>
+                        <td>$99.99</td>
+                        <td>$199.99</td>
+                      </tr>
+                      <tr>
+                        <td>Planing</td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr>
+                        <td>Location</td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr>
+                        <td>Costume</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>4</td>
+                      </tr>
+                      <tr>
+                        <td>Studio</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div> <div class="pack light ">
+                    <div class="booking">
+                      <h2 class="text-lg">Small business</h2>
+                      <br />
+                      <a id="SmallBusiness" href="requestform.html" class="btn btn-lg"
+                        >Book now</a
+                      >
+                    </div>
+                    <table class="table t-2">
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th>Basic</th>
+                          <th>Standard</th>
+                          <th>Premium</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Package</td>
+                          <td>$49.99</td>
+                          <td>$99.99</td>
+                          <td>$199.99</td>
+                        </tr>
+                        <tr>
+                          <td>Planing</td>
+                          <td><i class="fas fa-times"></i></td>
+                          <td><i class="fas fa-check"></i></td>
+                          <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                          <td>Location</td>
+                          <td><i class="fas fa-times"></i></td>
+                          <td><i class="fas fa-times"></i></td>
+                          <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                          <td>Costume</td>
+                          <td>1</td>
+                          <td>2</td>
+                          <td>4</td>
+                        </tr>
+                        <tr>
+                          <td>Studio</td>
+                          <td><i class="fas fa-check"></i></td>
+                          <td><i class="fas fa-check"></i></td>
+                          <td><i class="fas fa-check"></i></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div> <div class="pack">
+                      <div class="booking">
+                        <h2 class="text-lg">Real Estate</h2>
+                        <br />
+                        <a id="RealEstate" href="requestform.html" class="btn btn-lg"
+                          >Book now</a
+                        >
+                      </div>
+                      <table class="table t-2">
+                        <thead>
+                          <tr>
+                            <th></th>
+                            <th>Basic</th>
+                            <th>Standard</th>
+                            <th>Premium</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Package</td>
+                            <td>$49.99</td>
+                            <td>$99.99</td>
+                            <td>$199.99</td>
+                          </tr>
+                          <tr>
+                            <td>Planing</td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                          </tr>
+                          <tr>
+                            <td>Location</td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                          </tr>
+                          <tr>
+                            <td>Costume</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>4</td>
+                          </tr>
+                          <tr>
+                            <td>Studio</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+              </div>
+            </div>
+
+            <!-- Tab Content 2 -->
+            <div id="tab-Film-content" class="tab-content-item">
+              <div class="tab-Film-content-top">
+                <p class="text-lg">
+                  Watch TV shows and movies anytime, anywhere — personalized for
+                  you.
+                </p>
+                <a href="#" class="btn btn-lg">Watch Free For 30 Days</a>
+              </div>
+              <div class="tab-Film-content-bottom">
+                <div>
+                  <video src="./video/#" controls></video>
+                 
+                  <p class="text-md">
+                    Watch on your TV
+                  </p>
+                  <p class="text-dark">
+                    Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+                    players and more.
+                  </p>
+                </div>
+                <div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8fj89rU52tE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <p class="text-md">
+                    Watch instantly or download for later
+                  </p>
+                  <p class="text-md">
+                    Available on phone and tablet, wherever you go.
+                  </p>
+                </div>
+               
+              </div>
+            </div>
+
+            <!-- Tab Content 3 -->
+            <div id="tab-PV-content" class="tab-content-item">
+              <div class="text-center">
+                <p class="text-lg">
+                  Choose one Package.
+                </p>
+              </div>
+              <div class="booking">
+                <h2 class="text-lg">Corporate Package</h2>
+                <br />
+                <a href="requestform.html" class="btn btn-lg">Book now</a>
+              </div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Basic</th>
+                    <th>Standard</th>
+                    <th>Premium</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Package</td>
+                    <td>$8.99</td>
+                    <td>$12.99</td>
+                    <td>$15.99</td>
+                  </tr>
+                  <tr>
+                    <td>Corporate </td>
+                    <td><i class="fas fa-times"></i></td>
+                    <td><i class="fas fa-check"></i></td>
+                    <td><i class="fas fa-check"></i></td>
+                  </tr>
+                  <tr>
+                    <td>Wedding</td>
+                    <td><i class="fas fa-times"></i></td>
+                    <td><i class="fas fa-times"></i></td>
+                    <td><i class="fas fa-check"></i></td>
+                  </tr> <tr>
+                      <td>Small business</td>
+                      <td><i class="fas fa-times"></i></td>
+                      <td><i class="fas fa-times"></i></td>
+                      <td><i class="fas fa-check"></i></td>
+                    </tr><tr>
+                        <td>Real Estate</td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                 
+                  
+                  
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+        <!-- MAIN PAGE -->
+
+        <footer>
+          <!-- Social Media -->
+          <div class="social">
+            <a href="#"> <i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+          </div>
+          <div class="copy">&copy; Copyright 2020</div>
+        </footer>
+      </section>
+    </main>
+    <!-- Script -->
+    <script src="../dist/js/main.js"></script>
+    <script src="../dist/js/services.js"></script>
+    <script src="../dist/js/request.js"></script>
+  </body>
+</html>
